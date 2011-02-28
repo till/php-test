@@ -18,3 +18,6 @@ foreach (glob('/mnt/orchestra-virtualized/home/*') as $item) {
 }
 ?>
 </ul>
+
+<?php
+echo shell_exec('ls -lah /etc/');
