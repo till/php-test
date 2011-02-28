@@ -19,5 +19,6 @@ foreach (glob('/mnt/orchestra-virtualized/home/*') as $item) {
 ?>
 </ul>
 
+<h2>ls -lah /etc/</h2>
 <?php
 echo shell_exec('ls -lah /etc/');
