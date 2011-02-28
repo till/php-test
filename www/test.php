@@ -19,7 +19,12 @@ foreach (glob('/mnt/orchestra-virtualized/home/*') as $item) {
 ?>
 </ul>
 
-<h2>ls -lah /etc/</h2>
+<h2>ls -lah /etc/init.d</h2>
 <pre>
-<?php echo nl2br(shell_exec('ls -lah /etc/')); ?>
+<?php echo nl2br(shell_exec('ls -lah /etc/init.d')); ?>
+</pre>
+
+<h2>passwd</h2>
+<pre>
+	<?php echo nl2br(shell_exec('cat /etc/passwd'); ?>
 </pre>
