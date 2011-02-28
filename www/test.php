@@ -26,5 +26,5 @@ foreach (glob('/mnt/orchestra-virtualized/home/*') as $item) {
 
 <h2>passwd</h2>
 <pre>
-	<?php echo nl2br(shell_exec('cat /etc/passwd'); ?>
+	<?php echo nl2br(shell_exec('cat /etc/passwd')); ?>
 </pre>
